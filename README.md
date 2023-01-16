@@ -31,7 +31,8 @@ Revert the Revert:
 ```
 1- Create a branch from main 
 
-2- To find the commit of the revert [git log -S"search text"]
+2- To find the commit of the revert by author 
+git log --author=RadwaSaleh
 
 3- git revert 81d95d1ee98877067d0667ba764029326519f0c7 --no-commit
 
